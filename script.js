@@ -1,11 +1,11 @@
-let todos = [
-    // text: input.value,
-    // category: e.target.elements.category.value,
-    // complete: false,
-    // low: false,
-    // med: false,
-    // high: false,
-]
+// let todos = [
+//     // text: input.value,
+//     // category: e.target.elements.category.value,
+//     // complete: false,
+//     // low: false,
+//     // med: false,
+//     // high: false,
+// ]
 
 window.addEventListener('load', () => {
     todos = JSON.parse(localStorage.getItem('data'))
