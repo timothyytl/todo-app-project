@@ -1,11 +1,4 @@
-// let todos = [
-//     // text: input.value,
-//     // category: e.target.elements.category.value,
-//     // complete: false,
-//     // low: false,
-//     // med: false,
-//     // high: false,
-// ]
+const todos = []
 
 window.addEventListener('load', () => {
     todos = JSON.parse(localStorage.getItem('data'))
@@ -44,7 +37,7 @@ function displayTodos() {
 
     list.innerHTML = ''
 
-    todos.forEach(todo => {
+    todos.forEach((todo, index) => {
         const todoItem = document.createElement('div')
         todoItem.classList.add('todo-item')
 
