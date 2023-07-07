@@ -11,5 +11,5 @@ Quick guide to use this app:
 - Upon completion, click on the colored checkbox circle to mark the todo as complete. 
 - To delete a todo, just click on the 'dustbin icon' to remove the todo from the list.
 -  To remove ALL of the todos simultaneously, click on the 'Delete All' button.
+- In case of spelling error or just to enter or remove details to your input, just click the "Edit" button to edit your information. When you're done, just hit the "Save" button to save your new data.
 
-Thank you and we hope that our app serves you well!
