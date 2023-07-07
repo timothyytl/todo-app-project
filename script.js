@@ -1,4 +1,4 @@
-const todos = []
+todos = []
 
 window.addEventListener('load', () => {
     todos = JSON.parse(localStorage.getItem('data'))
